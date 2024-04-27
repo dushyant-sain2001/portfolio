@@ -1,7 +1,6 @@
 import './contact.css';
-import contactbackground from '../../assets/contact.jpg'
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import MailOutlineIcon from "@mui/icons-material/MailOutline";
+
 
 const Contact = () =>{
 
