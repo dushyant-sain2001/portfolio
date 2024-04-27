@@ -21,7 +21,7 @@ const ProjectData = [
     point3: 'Implemented robust cart management functionality, allowing users to add products effortlessly.',
     point4: 'Ensured smooth navigation and interaction, enhancing the overall user experience.',
     techuesd: 'HTML, CSS, Javascript, React, Matrial UI, Redux, NodeJS, ExpressJS, MongoDB, Mongoose, Axios ',
-    projectlink: 'https://github.com/', livedemo: 'https://github.com/'
+    projectlink: 'https://github.com/dushyant-sain2001/flipkart-clone',
 },
 
 {
