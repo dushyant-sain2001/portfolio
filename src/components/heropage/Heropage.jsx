@@ -52,7 +52,7 @@ const Heropage = () => {
       </div>
       <div className="left-side">
         <div className="innerright">
-          <img src={Profile} alt="profile-image" className="profile" />
+          <img src={Profile} className="profile" />
         </div>
       </div>
     </div>
