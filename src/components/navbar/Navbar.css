@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Edu+TAS+Beginner:wght@400..700&family=Honk&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kode+Mono:wght@400..700&family=Protest+Strike&family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:wght@100&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(35, 152, 255, 0);
+}
+.navbar {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    font-family: "Kode Mono", monospace;
+    position: fixed;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .left {
+    display: flex;
+    align-items: center;
+  }
+   .navname{
+    margin-left: 20px;
+    font-size: 15px;
+   }
+.navbtn {
+    font-family: "Roboto Mono", monospace;
+    margin-right: 10px;
+    font-weight: 800;
+    display: inline-block;
+    padding: 6px 15px;
+    font-size: 18px;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbtn::before {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: #944fd8; 
+    transition: width 0.4s ease;
+  }
+  .navbtn:hover::before {
+    width: 100%;
+  }
+  

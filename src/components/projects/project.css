@@ -1,0 +1,110 @@
+.projectsmain{
+    min-height: 100vh ;
+    height: fit-content;
+    padding-top: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+    
+}
+
+.projectinnercontainer{
+    margin-bottom: 2rem;
+    height: fit-content;
+    width: 100%;
+     padding: 1rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 4rem;
+}
+.projectheading{
+    margin-bottom: 1.5rem;
+    width: 150px;
+    border-bottom: 4px solid #944fd8;
+}
+.projectcontainer{
+    box-shadow: 3px 3px 12px #000000;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: fit-content;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.projectimage{
+    margin-top: 10px;
+    width: 600px;
+    height: 350px;
+}
+.projectname{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.project-points{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: justify;
+    width: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.tech-used{
+    padding-bottom:15px;
+    width: 100%;
+   background-color: #d6d6d6;
+}
+.projectbutton{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+    
+.projectbutton:hover{
+    background: #fff;
+    color: rgb(0, 0, 0);
+}
+
+.projectbutton{
+    margin-top: 15px;
+    margin-right: 20px;
+    padding: 15px;
+
+}
+
+.projectbtn{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:768px) {
+    .projectinnercontainer{
+        width: 100%;
+    }
+    .projectcontainer{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .projectimage{
+        height: 180px;
+    }
+    .projectbtn{
+        flex-direction: column;
+        width: 100%;
+    }
+    .projectbutton{
+        width: 100%;
+    }
+    .project-points{
+        width:300px;
+    }
+}
