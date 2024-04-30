@@ -27,7 +27,8 @@
     border-bottom: 4px solid #944fd8;
 }
 .projectcontainer{
-    box-shadow: 3px 3px 12px #000000;
+    border: 1px solid #c0c0c0;
+    box-shadow: 1px 3px 20px #909090;
     text-align: center;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
