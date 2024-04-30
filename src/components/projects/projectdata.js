@@ -26,19 +26,6 @@ const ProjectData = [
     techuesd: 'HTML, CSS, Javascript, React, Matrial UI, Redux, NodeJS, ExpressJS, MongoDB, Mongoose, Axios ',
     projectlink: 'https://github.com/dushyant-sain2001/flipkart-clone',
 },
-
-{
-    url: project3a ,
-    url2: project3b,
-    url3: project3c, 
-    name: 'Movie app (IMDB-clone)' , 
-    point1: 'Developed an IMDB frontend clone using JavaScript and React.',
-    point2: 'Seamlessly integrating API for dynamic content display.',
-    point3: 'Crafted an intuitive user interface with React components.',
-    //point4: 'Ensured smooth navigation and interaction, enhancing the overall user experience.',
-    techuesd: 'HTML, CSS, Javascript, React  ',
-    projectlink: 'https://github.com/dushyant-sain2001/imdb-clone',
-},
 {
     url: project5a ,
     url2: project5b,
@@ -50,6 +37,18 @@ const ProjectData = [
     point4: '',
     techuesd: 'HTML, Bootstrap, Javascript, Redux Toolkit, React',
     projectlink: 'https://github.com/dushyant-sain2001/Redux-Toolkit-Project'
+},
+{
+    url: project3a ,
+    url2: project3b,
+    url3: project3c, 
+    name: 'Movie app (IMDB-clone)' , 
+    point1: 'Developed an IMDB frontend clone using JavaScript and React.',
+    point2: 'Seamlessly integrating API for dynamic content display.',
+    point3: 'Crafted an intuitive user interface with React components.',
+    //point4: 'Ensured smooth navigation and interaction, enhancing the overall user experience.',
+    techuesd: 'HTML, CSS, Javascript, React  ',
+    projectlink: 'https://github.com/dushyant-sain2001/imdb-clone',
 },
 {
     url: project2a ,
