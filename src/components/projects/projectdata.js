@@ -8,6 +8,9 @@ import project3c from '../../assets/project3c.png'
 import project4a from '../../assets/project4a.png'
 import project4b from '../../assets/project4b.png'
 import project4c from '../../assets/project4c.png'
+import project5a from '../../assets/project5a.png'
+import project5b from '../../assets/project5b.png'
+import project5c from '../../assets/project5c.png'
 
 
 const ProjectData = [
@@ -35,6 +38,18 @@ const ProjectData = [
     //point4: 'Ensured smooth navigation and interaction, enhancing the overall user experience.',
     techuesd: 'HTML, CSS, Javascript, React  ',
     projectlink: 'https://github.com/dushyant-sain2001/imdb-clone',
+},
+{
+    url: project5a ,
+    url2: project5b,
+    url3: project5c, 
+    name: 'Shopping Cart (Redux-Toolkit-Project)' , 
+    point1: 'Built an Shopping Cart project using React JavaScript and Redux Toolkit',
+    point2: 'Implemented features for adding and removing items from the shopping cart with Redux Toolkit',
+    point3: 'Utilized Redux Toolkit for efficient state management and cleaner code.',
+    point4: '',
+    techuesd: 'HTML, Bootstrap, Javascript, Redux Toolkit, React',
+    projectlink: 'https://github.com/dushyant-sain2001/Redux-Toolkit-Project'
 },
 {
     url: project2a ,
