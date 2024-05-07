@@ -11,6 +11,9 @@ import project4c from '../../assets/project4c.png'
 import project5a from '../../assets/project5a.png'
 import project5b from '../../assets/project5b.png'
 import project5c from '../../assets/project5c.png'
+import project6a from '../../assets/project6a.png'
+import project6b from '../../assets/project6b.png'
+import project6c from '../../assets/project6c.png'
 
 
 const ProjectData = [
@@ -25,6 +28,18 @@ const ProjectData = [
     point4: 'Ensured smooth navigation and interaction, enhancing the overall user experience.',
     techuesd: 'HTML, CSS, Javascript, React, Matrial UI, Redux, NodeJS, ExpressJS, MongoDB, Mongoose, Axios ',
     projectlink: 'https://github.com/dushyant-sain2001/flipkart-clone',
+},
+    {
+    url: project6a ,
+    url2: project6b,
+    url3: project6c, 
+    name: 'File Sharing App' , 
+    point1: 'Engineered a modern file sharing platform with HTML, CSS, and JavaScript, utilizing React for dynamic user interfaces.',
+    point2: 'Implemented robust backend functionality with Node.js and Express.js to manage file uploads and downloads.',
+    point3: 'Incorporated MongoDB as the primary database solution, leveraging Mongoose for efficient data modeling and interaction.',
+    point4: '',
+    techuesd: 'HTML, CSS, Javascript, React, NodeJS, ExpressJS, MongoDB, Mongoose',
+    projectlink: 'https://github.com/dushyant-sain2001/file-sharing'
 },
 {
     url: project5a ,
