@@ -14,9 +14,23 @@ import project5c from '../../assets/project5c.png'
 import project6a from '../../assets/project6a.png'
 import project6b from '../../assets/project6b.png'
 import project6c from '../../assets/project6c.png'
-
+import project7a from '../../assets/project7a.png'
+import project7b from '../../assets/project7b.png'
+import project7c from '../../assets/project7c.png'
 
 const ProjectData = [
+    {
+    url: project7a ,
+    url2: project7b,
+    url3: project7c, 
+    name: 'Blog-app' , 
+    point1: 'Engineered a responsive blog application using the MERN stack (MongoDB, Express.js, React, Node.js) with Tailwind CSS for modern UI design.',
+    point2: 'Implemented secure user authentication and authorization with Firebase and Google Authentication, ensuring seamless and safe user experiences.',
+    point3: 'Optimized backend processes with Node.js and Express.js, improving data handling and server response times for a scalable and efficient application.',
+    point4: 'Designed and developed RESTful APIs with Express.js for efficient data retrieval and manipulation, facilitating smooth interaction between the frontend and backend.',
+    techuesd: 'HTML, Tailwind, Javascript, React, Redux Toolkit, NodeJS, ExpressJS, MongoDB, Mongoose, Firebase ',
+    projectlink: 'https://github.com/', livedemo: 'https://mern-blog-ax4w.onrender.com/'
+},
 {
     url: project4a ,
     url2: project4b,
